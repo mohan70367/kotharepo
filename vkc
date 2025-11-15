@@ -5,4 +5,9 @@
             return n * factorial(n-1)
 
     num = 5
-    print(f"The factorial of {num} is {factorial(num)}")
+    print(f"The factorial of {num} is {factorial(num)}"
+)
+
+    my_string = "Python"
+    reversed_string = my_string[::-1]
+    print(f"The reversed string is: {reversed_string}")
